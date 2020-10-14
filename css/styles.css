@@ -1,0 +1,349 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    font-family:  'Secular One', sans-serif;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+ /*основное */
+
+.silka
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.ober
+{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+
+.shapka
+{
+    
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+
+
+.shapka-text
+{
+    font-weight:bold;
+    font-size: 17px;
+    margin-right: 30px;
+}
+
+
+.sag
+{
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.sag-silka
+{
+text-decoration: none;
+color: black
+}
+
+.sag-silka:hover{
+    color: red;
+}
+
+ /* шапка */
+
+
+
+
+.main
+{
+ flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+
+.main-texts
+{
+ width:600px;
+
+}
+
+.main-block-kart{
+    background-image: url("../2166.jpg");
+    border-radius: 50%;
+    width:350px;
+    height: 350px;
+   background-repeat: no-repeat;
+   background-position: center top -10px;
+   border: 13px solid white;
+}
+
+
+.main-sag
+{
+    margin-bottom: 20px;
+}
+
+
+/* история */
+
+.block-infa
+{
+    width: 80%;
+    margin: auto;
+}
+
+.block-infa-sag{
+   margin-bottom: 20px;
+}
+
+
+
+.aero-block
+{
+    height: 300px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.aero-text
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aero-sag
+{
+    margin-bottom: 15px;
+}
+
+.aero-text
+{
+    margin-bottom: 5px;
+
+}
+
+.aero-kart-block
+{
+    width: 50%;
+  
+   
+}
+
+
+.aero-kart
+{
+    width: 100%;
+    height: 300px;
+}
+
+/* блоки с самолетами */
+
+
+
+
+.ober2
+{
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.podval
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.podval-silki
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.podval-silki-block
+{
+    margin-right: 10px;
+}
+
+.podval-silki-block
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.podval-text
+{
+    margin-right: 5px;
+}
+
+.podval-silka
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* контакты */
+
+
+
+
+
+@media screen and (max-width: 1230px){
+   .main-texts{
+       width: 50%;
+   }
+}
+
+@media screen and (max-width:950px)
+{
+    .main-texts{
+        width: 45%;
+    }
+    .main-text{
+        font-size: 12px;
+    }
+
+    .main-block-kart{
+        width: 350px;
+        height: 350px;
+    }
+    .aero-text{
+        width: 55%;
+        font-size: 14px;
+    }
+    .aero-kart-block
+    {
+        width: 45%;
+    }
+    .shapka{
+        width: 90%;
+    }
+    .main{
+        width: 90%;
+    }
+    .block-infa{
+        width: 90%;
+    }
+    .podval
+    {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:760px)
+{
+    .shapka{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .block-infa{
+        width: 100%;
+    }
+    .podval
+    {
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width:690px)
+{
+    .main-texts{
+        width: 100%;
+        font-size: 15px;
+    }
+    .main-block-kart{
+       display: none;
+    }
+    .main{
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .shapka-text
+    {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .shapka-sag
+    {
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width:450px)
+{
+.aero-block
+{
+    margin-bottom: 0;
+}
+
+
+    .aero-text{
+        width: 90%;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .aero-kart-block{
+        display: none;
+    }
+    .podval-text{
+        font-size:14px;
+    }
+    .podval-kart
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .sag-silka
+    {
+        display: none;
+    }
+    .shapka-infa
+    {
+        margin-right: 0;
+        
+    }
+    .main{
+        margin-bottom: 50px;
+    }
+}
